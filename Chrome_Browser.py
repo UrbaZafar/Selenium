@@ -10,6 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
+executable_path="Your chromedriver_path "
 # This creates a service object that tells Selenium where the ChromeDriver is located.
 chrome_service=Service(executable_path)
 
